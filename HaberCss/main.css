@@ -1,0 +1,594 @@
+body {
+    font-family: 'lato',sans-serif;
+    background-color: #EEF0E5;
+
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.top_header {
+    height: 112px;
+    background-color:gray;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index:1;
+}
+
+.col5 {
+    width: 33.33%;
+    float:left;
+}
+
+.logo {
+    margin-top: 13px;
+    width: 10rem;
+    height: 5rem;
+}
+
+.Haber_nav {
+    margin-top: 45px;
+}
+
+.Haber_nav ul {
+    margin: 0;
+    padding: 0;    
+}
+
+.Haber_nav li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.Haber_nav  li  :last-child {
+    margin-right: 0;
+}
+
+.Haber_nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.Haber_nav li a:hover {
+    color: #11B7B1;
+}
+
+.social_links {
+    margin-top: 40px;
+}
+
+.social_links li {
+    display:inline-block;
+    float: right;
+}
+
+.social_links .fa {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+}
+
+.fa-facebook {
+    background-color: #395998;
+}
+
+.fa-twitter {
+    background-color: #00ECED; 
+}
+
+.fa-instagram {
+    background-color: purple;
+}
+
+#AnaHaber {
+    background-image: url(../HaberImg/AnaHaber.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 620px;
+    padding-top: 225px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    color: rgb(243, 235, 235);
+    font-weight: 100;
+    letter-spacing: 2px;
+    word-spacing: 100px;
+}
+
+#Haber {
+    background-color: #EEF0E5;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 56px;
+    padding-bottom: 112px;
+}
+
+#Haber {
+    size: 30px;
+    font-weight: 300;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+#Haber .col1 {
+    width: 45%;
+    min-height: 250px;
+    float:left;
+    background-image: url(../HaberImg/Haber1.jpg);
+    opacity: .70;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#Haber .col1:hover {
+    opacity: 1;
+}
+
+#Haber .col2 {
+    width: 45%;
+    min-height: 250px;
+    float:left;
+    background-image: url(../HaberImg/Haber2.jpg);
+    opacity: .70;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#Haber .col2:hover {
+    opacity: 1;
+}
+
+#Haber .col3 {
+    width: 45%;
+    min-height: 250px;
+    float:left;
+    background-image: url(../HaberImg/Haber3.jpg);
+    opacity: .70;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#Haber .col3:hover {
+    opacity: 1;
+}
+
+#Haber .col4 {
+    width: 45%;
+    max-height: 280px;
+    float:left;
+    background-image: url(../HaberImg/Haber4.jpg);
+    opacity: .70;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#Haber .col4:hover {
+    opacity: 1;
+}
+#Haber .col5 {
+    width: 45%;
+    min-height: 250px;
+    float:left;
+    background-image: url(../HaberImg/Haber5.jpg);
+    opacity: .70;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#Haber .col5:hover {
+    opacity: 1;
+}
+#Haber .col6 {
+    width: 45%;
+    min-height: 250px;
+    float:left;
+    background-image: url(../HaberImg/Haber6.jpg);
+    opacity: .70;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#Haber .col6:hover {
+    opacity: 1;
+}
+
+#Haber .col7 {
+    width: 45%;
+    min-height: 250px;
+    float:left;
+    background-image: url(../HaberImg/Haber7.jpg);
+    opacity: .70;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#Haber .col7:hover {
+    opacity: 1;
+}
+#Haber .col8 {
+    width: 45%;
+    min-height: 250px;
+    float:left;
+    background-image: url(../HaberImg/Haber8.jpg);
+    opacity: .70;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#Haber .col8:hover {
+    opacity: 1;
+}
+#Haber .col9 {
+    width: 45%;
+    min-height: 250px;
+    float:left;
+    background-image: url(../HaberImg/Haber9.jpg);
+    opacity: .70;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#Haber .col9:hover {
+    opacity: 1;
+}
+#Haber .col10 {
+    width: 45%;
+    min-height: 250px;
+    float:left;
+    background-image: url(../HaberImg/Haber10.jpg);
+    opacity: .70;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#Haber .col10:hover {
+    opacity: 1;
+}
+
+#Haber .col11 {
+    width: 45%;
+    min-height: 250px;
+    float:left;
+    background-image: url(../HaberImg/Haber11.jpg);
+    opacity: .70;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#Haber .col11:hover {
+    opacity: 1;
+}
+
+#Haber .col12 {
+    width: 45%;
+    min-height: 250px;
+    float:left;
+    background-image: url(../HaberImg/Haber12.jpg);
+    opacity: .70;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#Haber .col12:hover {
+    opacity: 1;
+}
+
+#Haber .col13 {
+    width: 45%;
+    min-height: 250px;
+    float:left;
+    background-image: url(../HaberImg/Haber13.jpg);
+    opacity: .70;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#Haber .col13:hover {
+    opacity: 1;
+}
+
+#Haber .col14 {
+    width: 45%;
+    min-height: 250px;
+    float:left;
+    background-image: url(../HaberImg/Haber14.jpg);
+    opacity: .70;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#Haber .col14:hover {
+    opacity: 1;
+}
+#Haber .col15 {
+    width: 45%;
+    min-height: 250px;
+    float:left;
+    background-image: url(../HaberImg/Haber15.jpg);
+    opacity: .70;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#Haber .col15:hover {
+    opacity: 1;
+}
+#Haber .col16 {
+    width: 45%;
+    min-height: 250px;
+    float:left;
+    background-image: url(../HaberImg/Haber16.jpg);
+    opacity: .70;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#Haber .col16:hover {
+    opacity: 1;
+}
+
+#Haber .col17 {
+    width: 45%;
+    min-height: 250px;
+    float:left;
+    background-image: url(../HaberImg/Haber17.jpg);
+    opacity: .70;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#Haber .col17:hover {
+    opacity: 1;
+}
+#Haber .col18 {
+    width: 45%;
+    max-height: 250px;
+    float:left;
+    background-image: url(../HaberImg/Haber18.jpg);
+    opacity: .70;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#Haber .col18:hover {
+    opacity: 1;
+}
+#Haber .col19 {
+    width: 45%;
+    min-height: 250px;
+    float:left;
+    background-image: url(../HaberImg/Haber19.jpg);
+    opacity: .70;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#Haber .col19:hover {
+    opacity: 1;
+}
+#Haber .col20 {
+    width: 45%;
+    min-height: 250px;
+    float:left;
+    background-image: url(../HaberImg/Haber20.jpg);
+    opacity: .70;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#Haber .col20:hover {
+    opacity: 1;
+}
+
+.projectXBTN {
+    background-color: #500d16;
+    cursor: pointer;
+    color: #fff;
+    padding: 20px 40px;
+    border: none;
+    transition: all .5s ease;
+    border-radius: 50%;
+}
+
+.projectXBTN:hover {
+    background-color: #fff;
+    color: #500d16;
+}
+
+.copyx  {
+    text-align: center;
+    background-color: #EEF0E5;
+    padding-top: 10px;
+}
+
+.copyx p {
+    color: #000000;
+}
+
+#gallery {
+    background-color: #EEF0E5;
+    
+}
+.galleryTop {
+    text-align: center;
+}
+
+.gallerySlider {
+    width:800px;
+    height:330px;
+    overflow:hidden;
+    position: relative;
+    border-radius: 5%;
+    margin-left: 15%;
+}
+
+.gallerySliderItem {
+    width: 300%;
+    position:relative;
+    left: 0;
+    animation: slideAnimation 20s infinite;
+}
+
+.gallerySliderItem img {
+  position: absolute;
+  width:800px;
+  height:330px;
+}
+.resim1{left: 0;}
+.resim2{left: 800px;}
+.resim3{left: 1600px;}
+.resim4{left: 2400px;}
+.resim5{left: 3200px;}
+.resim6{left: 4000px;}
+.resim7{left: 4800px;}
+.resim8{left: 5600px;}
+.resim9{left: 6400px;}
+.resim10{left: 7200px;}
+
+@keyframes slideAnimation {
+    0% {left:0px;}
+  5% {left:0px;}
+  10% {left:-800px;}
+  15% {left:-800px;}
+  20% {left:-1600px;}
+  25% {left:-1600px;}
+  30% {left:-2400px;}
+  35% {left:-2400px;}
+  40% {left:-3200px;}
+  45% {left:-3200px;}
+  50% {left:-4000px;}
+  55% {left:-4000px;}
+  60% {left:-4800px;}
+  65% {left:-4800px;}
+  70% {left:-5600px;}
+  75% {left:-5600px;}
+  80% {left:-6400px;}
+  85% {left:-6400px;}
+  90% {left:-7200px;}
+  95% {left:-7200px;}
+  90% {left:-7200px;}
+  85% {left:-6400px;}
+  80% {left:-6400px;}
+  75% {left:-5600px;}
+  70% {left:-5600px;}
+  65% {left:-4800px;}
+  60% {left:-4800px;}
+  55% {left:-4000px;}
+  50% {left:-4000px;}
+  45% {left:-3200px;}
+  40% {left:-3200px;}
+  35% {left:-2400px;}
+  30% {left:-2400px;}
+  25% {left:-1600px;}
+  20% {left:-1600px;}
+  15% {left:-800px;}
+  10% {left:-800px;}
+  5% {left:0px;}
+  0% {left:0px;}
+}
+
+video{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.GorBaslık{
+    background-color: #EEF0E5;
+    text-align:center;
+}
+
+.GorBaslık h2{
+    text-align: center;
+}
+
+#Haber h3{
+    padding-top: 60px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#Haber p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*form*/
+
+#contact {
+    background-color:#EEF0E5 ;
+    margin-top: 150px;
+}
+.contactTop {
+    text-align: center;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.contactForm {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.formItem {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.formShape {
+    color: #fff;
+    float: left;
+    background: #500d16;
+    padding: 8px;
+    width: 8%;
+    text-align: center;
+} 
+
+.formField {
+    color: #fff;
+    background: #500d16;
+    border: none;
+    padding: 15.5px;
+    width: 91.9%;
+    display: block;
+    font-size: 14px;
+}
+
+.formBtn {
+    display: block;
+    border: none;
+    background: #500d16;
+    color: #fff;
+    padding: 12px 25px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.formBtn:hover {
+    background: #841916;
+}
+
+.haberDetay{
+    text-align: center;
+}
+.haberDetay h2{
+    text-transform:capitalize;
+}
+.haberDetay img {
+    width: 700px;
+    height: 400px;
+    border-radius: 10%;
+}
